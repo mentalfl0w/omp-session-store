@@ -1,5 +1,5 @@
 {
-  "name": "session-store",
+  "name": "omp-session-store",
   "description": "Offline session search tool for oh-my-pi (OMP) and pi-agent — search completed/archived sessions by keyword, content, or time range. Returns structured JSON. No TUI required.",
   "version": "0.1.0",
   "type": "module",
@@ -24,6 +24,12 @@
     "build": "bun build src/index.ts --outdir dist --target bun",
     "dev": "bun run src/index.ts"
   },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "omp": {
     "extensions": [
       "./dist/index.js"
