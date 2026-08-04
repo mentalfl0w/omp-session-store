@@ -1,4 +1,4 @@
-# session-store
+# omp-session-store
 
 A custom `session_search` tool for **oh-my-pi (OMP)** and **pi-agent** that lets the agent search **offline / completed / archived sessions** — the ones that `history://` cannot reach.
 
@@ -61,7 +61,7 @@ All three modes support `since` and `until` parameters. Three formats accepted:
 ## Install
 
 ```sh
-omp plugin install session-store
+omp plugin install omp-session-store
 ```
 
 Or link from source:
@@ -147,7 +147,7 @@ All data is read directly from OMP's on-disk storage — no runtime API dependen
 ## Project layout
 
 ```
-session-store/
+omp-session-store/
 ├── README.md
 ├── package.json          ← omp.extensions / pi.extensions manifest
 ├── LICENSE               ← MIT
