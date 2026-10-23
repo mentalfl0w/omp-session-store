@@ -87,6 +87,8 @@ The agent calls the tool — you don't call it directly. Just ask naturally:
 
 The agent will invoke `session_search` with appropriate parameters and parse the structured JSON response.
 
+The package also includes an `omp-session-store` Skill that helps the agent choose a search mode and interpret matches.
+
 ### Direct tool parameters
 
 | Parameter | Required | Description |
