@@ -1,7 +1,7 @@
 {
   "name": "omp-session-store",
   "description": "Offline session search tool for oh-my-pi (OMP) and pi-agent — search completed/archived sessions by keyword, content, or time range. Returns structured JSON. No TUI required.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "keywords": [
     "omp",
@@ -27,6 +27,7 @@
   },
   "files": [
     "dist",
+    "skills",
     "README.md",
     "LICENSE"
   ],
